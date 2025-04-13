@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         useMaterial3: true,
       ),
-
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       home: const DataExplorerScreen(),
     );
